@@ -15,7 +15,7 @@ function map(array, callback) {
   return newArray
 }
 
-function reduce(array, startingValue) {
+function reduce(array, cb, startingValue) {
 
   let total = 0
 
